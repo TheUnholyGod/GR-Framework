@@ -41,7 +41,7 @@
 *.tlog
 
 # Project Filters
-*. vcxproj
+*.vcxproj
 *.filters
 *.vcxproj.filters
 
