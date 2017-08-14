@@ -32,3 +32,16 @@
 *.suo
 *.sdf
 *.opendb
+
+# Compiled build/log files
+*.log
+*.idb
+*.pdb
+*.lastbuildstate
+*.tlog
+
+# Project Filters
+*. vcxproj
+*.filters
+*.vcxproj.filters
+
