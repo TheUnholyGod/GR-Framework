@@ -270,7 +270,6 @@ void SceneText::Exit()
 	// Detach camera from other entities
 	GraphicsManager::GetInstance()->DetachCamera();
 
-
 	// Delete the lights
 	delete lights[0];
 	delete lights[1];

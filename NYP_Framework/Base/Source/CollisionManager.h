@@ -13,7 +13,7 @@ class CollisionManager : public Singleton<CollisionManager> {
 public:
 	// Check if this entity's bounding sphere collided with that entity's bounding sphere
 	bool CheckSphereCollision(EntityBase *ThisEntity, EntityBase *ThatEntity);
-	// Check if this entity's bounding sphere collided with that entity's bounding sphere 
+	// Check if this entity's bounding sphere collided with that entity's bounding sphere
 	bool CheckPointToSphereCollision(Vector3 point, EntityBase *ThatEntity);
 	// Check if this entity collided with another entity, but both must have collider
 	bool CheckAABBCollision(EntityBase *ThisEntity, EntityBase *ThatEntity);
