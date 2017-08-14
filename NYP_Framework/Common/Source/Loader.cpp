@@ -50,7 +50,6 @@ bool Loader::LoadData(std::string _name)
     }
     std::cout << i << " rows of data written into file " << _name << "!" << std::endl;
 
-
     if (this->CloseFile())
     {
         std::cout << "<Loader Output END>" << std::endl;
