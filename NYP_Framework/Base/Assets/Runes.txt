@@ -1,0 +1,2 @@
+ID,name,attribute,textureDirectory
+1,Hello,2,Image//rune.tga

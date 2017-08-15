@@ -1,28 +1,30 @@
 ///////////////////////////////////////////////////////////////////////////////
 /*!
-\file   Equipment.cpp
+\file   RuneBase.cpp
 \author Lin Xin
 \par	email: 163320B@mymail.nyp.edu.sg
 \brief
-cpp file for Equipment class.
+cpp file for Runes class.
 */
 ///////////////////////////////////////////////////////////////////////////////
-#include "Equipment.h"
+#include "Runes.h"
 
-Equipment::Equipment(int ID)
+Runes::Runes(int ID)
 {
 	this->m_ID = ID;
-	parseFile("Asset//Weapons.txt");
+	parseFile("Assets//Runes.txt");
 }
 
-Equipment::~Equipment()
+Runes::~Runes()
 {
 }
 
-bool Equipment::parseFile(const std::string fileName)
+bool Runes::parseFile(const std::string fileName)
 {
+	//Read the file and store: Name, Description, Texture Directory
+
 	//Use loader to read file into vector string
-	if(!Loader::GetInstance()->LoadData(fileName))
+	if (!Loader::GetInstance()->LoadData(fileName))
 		return false;
 
 	//Stores the data read by loader
@@ -31,8 +33,10 @@ bool Equipment::parseFile(const std::string fileName)
 	//Pass vector string into file_data
 	file_data = Loader::GetInstance()->GetData();
 
+	//Based on ID, look for the correct row of values.
+	std::string rune_data = file_data[this->m_ID];
+	std::cout << rune_data << std::endl;
 	//Manipulate the data and initialise respective variables
-
-
+	
 	return false;
 }

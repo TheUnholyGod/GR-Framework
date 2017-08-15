@@ -10,17 +10,19 @@ Header file for equipment class. Stores basic equipment params.
 #pragma once
 
 #include "ItemBase.h"
+#include "Runes.h"
 
 class Equipment : public ItemBase
 {
 public:
-	Equipment(int ID);
+	Equipment();
 	virtual ~Equipment();
 
-	virtual bool parseFile(const std::string fileName);
+	virtual bool parseFile(const std::string fileName) = 0;
 
-private:
-	//Equipment specific variables
-
+//Equipment specific variables
+protected:
+	size_t m_max_runes; //Maximum number of runes this equipment can store
+	std::vector<Runes*> m_runes; //Stores all equipped runes
 };
 

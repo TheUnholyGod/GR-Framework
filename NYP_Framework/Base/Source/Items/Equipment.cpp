@@ -1,23 +1,18 @@
 ///////////////////////////////////////////////////////////////////////////////
 /*!
-\file   RuneBase.cpp
+\file   Equipment.cpp
 \author Lin Xin
 \par	email: 163320B@mymail.nyp.edu.sg
 \brief
-cpp file for Runes class.
+cpp file for Equipment class.
 */
 ///////////////////////////////////////////////////////////////////////////////
-#include "Runes.h"
+#include "Equipment.h"
 
-Runes::Runes(int ID)
+Equipment::Equipment()
 {
 }
 
-Runes::~Runes()
+Equipment::~Equipment()
 {
-}
-
-bool Runes::parseFile(const std::string fileName)
-{
-	return false;
 }
