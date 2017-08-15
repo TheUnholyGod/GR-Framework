@@ -42,9 +42,6 @@
     <ClCompile Include="Source\TextEntity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\SpriteEntity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Light.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -72,6 +69,12 @@
     <ClCompile Include="Source\HardwareAbstraction\Mouse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\EntityLivingBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EntityDeadBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h">
@@ -90,9 +93,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\TextEntity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SpriteEntity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Light.h">
@@ -120,6 +120,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\HardwareAbstraction\Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityLivingBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntityDeadBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

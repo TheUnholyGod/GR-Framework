@@ -13,6 +13,8 @@
   <ItemGroup>
     <ClCompile Include="Source\Application.cpp" />
     <ClCompile Include="Source\CollisionManager.cpp" />
+    <ClCompile Include="Source\EntityDeadBase.cpp" />
+    <ClCompile Include="Source\EntityLivingBase.cpp" />
     <ClCompile Include="Source\EntityManager.cpp" />
     <ClCompile Include="Source\FPSCamera.cpp" />
     <ClCompile Include="Source\GenericEntity.cpp" />
@@ -26,12 +28,13 @@
     <ClCompile Include="Source\PlayerInfo\PlayerInfo.cpp" />
     <ClCompile Include="Source\SceneText.cpp" />
     <ClCompile Include="Source\SkyBox\SkyBoxEntity.cpp" />
-    <ClCompile Include="Source\SpriteEntity.cpp" />
     <ClCompile Include="Source\TextEntity.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h" />
     <ClInclude Include="Source\CollisionManager.h" />
+    <ClInclude Include="Source\EntityDeadBase.h" />
+    <ClInclude Include="Source\EntityLivingBase.h" />
     <ClInclude Include="Source\EntityManager.h" />
     <ClInclude Include="Source\FPSCamera.h" />
     <ClInclude Include="Source\GenericEntity.h" />
@@ -44,7 +47,6 @@
     <ClInclude Include="Source\PlayerInfo\PlayerInfo.h" />
     <ClInclude Include="Source\SceneText.h" />
     <ClInclude Include="Source\SkyBox\SkyBoxEntity.h" />
-    <ClInclude Include="Source\SpriteEntity.h" />
     <ClInclude Include="Source\TextEntity.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
