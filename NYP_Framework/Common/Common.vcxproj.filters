@@ -32,6 +32,12 @@
     <Filter Include="Physic">
       <UniqueIdentifier>{ea9179a4-be6b-41da-b1ac-ad1907f9571e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SpriteAnimation">
+      <UniqueIdentifier>{9590d1ca-d26d-4a9b-acb9-d5f8982eb3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{449a014f-60d3-41b4-a020-5dd94c41206b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Collider\Collider.cpp">
@@ -108,6 +114,12 @@
     </ClCompile>
     <ClCompile Include="Source\Physic.cpp">
       <Filter>Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteAnimation.cpp">
+      <Filter>SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIManager.cpp">
+      <Filter>UI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -203,6 +215,12 @@
     </ClInclude>
     <ClInclude Include="Source\Physic.h">
       <Filter>Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteAnimation.h">
+      <Filter>SpriteAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIManager.h">
+      <Filter>UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
