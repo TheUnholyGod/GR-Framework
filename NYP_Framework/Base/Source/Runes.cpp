@@ -1,21 +1,23 @@
 ///////////////////////////////////////////////////////////////////////////////
 /*!
-\file   WeaponBase.cpp
+\file   RuneBase.cpp
 \author Lin Xin
 \par	email: 163320B@mymail.nyp.edu.sg
 \brief
-cpp file for WeaponBase class.
+cpp file for Runes class.
 */
 ///////////////////////////////////////////////////////////////////////////////
-#include "WeaponBase.h"
+#include "Runes.h"
 
-
-
-WeaponBase::WeaponBase()
+Runes::Runes(int ID)
 {
 }
 
-
-WeaponBase::~WeaponBase()
+Runes::~Runes()
 {
+}
+
+bool Runes::parseFile(const std::string fileName)
+{
+	return false;
 }

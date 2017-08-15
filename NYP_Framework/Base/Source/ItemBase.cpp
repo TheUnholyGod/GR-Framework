@@ -12,6 +12,10 @@ cpp file for ItemBase class.
 
 
 ItemBase::ItemBase()
+	: m_ID(0),
+	m_name(""),
+	m_description(""),
+	m_textureLocation("")
 {
 }
 

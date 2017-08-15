@@ -9,3 +9,21 @@ the AI.
 */
 ///////////////////////////////////////////////////////////////////////////////
 #pragma once
+
+class StrategyBase
+{
+public:
+	StrategyBase();
+	~StrategyBase();
+
+private:
+
+};
+
+StrategyBase::StrategyBase()
+{
+}
+
+StrategyBase::~StrategyBase()
+{
+}

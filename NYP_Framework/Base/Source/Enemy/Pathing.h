@@ -9,3 +9,21 @@ Navigator of the AI.
 */
 ///////////////////////////////////////////////////////////////////////////////
 #pragma once
+
+class Pathing
+{
+public:
+	Pathing();
+	~Pathing();
+
+private:
+
+};
+
+Pathing::Pathing()
+{
+}
+
+Pathing::~Pathing()
+{
+}
