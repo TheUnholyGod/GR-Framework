@@ -21,7 +21,7 @@ public:
 protected:
 	/*Reads the file for information:
 	ID,Name,Description,TextureDirectory*/
-	//bool parseFile(const std::string fileName) = 0;
+	bool parseFile(const std::string fileName) = 0;
 
 	/*Returns this equipment's rune vector*/
 	std::vector<Runes*> getRunes();
