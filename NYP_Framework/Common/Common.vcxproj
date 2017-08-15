@@ -31,7 +31,9 @@
     <ClCompile Include="Source\RenderHelper.cpp" />
     <ClCompile Include="Source\SceneManager.cpp" />
     <ClCompile Include="Source\ShaderProgram.cpp" />
+    <ClCompile Include="Source\SpriteAnimation.cpp" />
     <ClCompile Include="Source\timer.cpp" />
+    <ClCompile Include="Source\UIManager.cpp" />
     <ClCompile Include="Source\Utility.cpp" />
     <ClCompile Include="Source\Vector2.cpp" />
     <ClCompile Include="Source\Vector3.cpp" />
@@ -62,8 +64,10 @@
     <ClInclude Include="Source\SceneManager.h" />
     <ClInclude Include="Source\ShaderProgram.h" />
     <ClInclude Include="Source\SingletonTemplate.h" />
+    <ClInclude Include="Source\SpriteAnimation.h" />
     <ClInclude Include="Source\SQLKeywords.h" />
     <ClInclude Include="Source\timer.h" />
+    <ClInclude Include="Source\UIManager.h" />
     <ClInclude Include="Source\Utility.h" />
     <ClInclude Include="Source\Vector2.h" />
     <ClInclude Include="Source\Vector3.h" />
