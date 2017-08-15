@@ -1,18 +1,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 /*!
-\file   Modifier.cpp
+\file   Emitter.cpp
 \author Lin Xin
 \par	email: 163320B@mymail.nyp.edu.sg
 \brief
-cpp file for modifier class.
+cpp file for emitter class.
 */
 ///////////////////////////////////////////////////////////////////////////////
-#include "Modifier.h"
-
-Modifier::Modifier()
-{
-}
-
-Modifier::~Modifier()
-{
-}
+#include "Emitter.h"

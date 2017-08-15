@@ -30,6 +30,7 @@ public:
 	virtual bool parseFile(const std::string fileName);
 
 	//Calculates the attribute values based on level and rarity
+	int calculateAttribute(int lv, int rarity);
 
 private:
 	//Rune specific variables

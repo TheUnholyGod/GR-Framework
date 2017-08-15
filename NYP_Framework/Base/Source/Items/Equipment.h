@@ -21,7 +21,7 @@ public:
 	virtual bool parseFile(const std::string fileName) = 0;
 
 //Equipment specific variables
-protected:
+private:
 	size_t m_max_runes; //Maximum number of runes this equipment can store
 	std::vector<Runes*> m_runes; //Stores all equipped runes
 };
