@@ -36,6 +36,7 @@ bool Runes::parseFile(const std::string fileName)
 	//Based on ID, look for the correct row of values.
 	std::string rune_data = file_data[this->m_ID];
 	std::cout << rune_data << std::endl;
+
 	//Manipulate the data and initialise respective variables
 	
 	return false;

@@ -9,8 +9,6 @@ cpp file for ItemBase class.
 ///////////////////////////////////////////////////////////////////////////////
 #include "ItemBase.h"
 
-
-
 ItemBase::ItemBase()
 	: m_ID(0),
 	m_name(""),
@@ -18,7 +16,6 @@ ItemBase::ItemBase()
 	m_textureLocation("")
 {
 }
-
 
 ItemBase::~ItemBase()
 {

@@ -11,11 +11,12 @@ Header file for runes class. Stores basic Rune params.
 
 #include <iostream>
 #include "ItemBase.h"
+#include "Modifier.h"
 
-class Runes : public ItemBase
+class Runes : public ItemBase 
 {
 public:
-	//Enums to store the bonus attributes that the rune gives. Each rune will only have one attribute.
+	//Enums to store the bonus attributes that the rune gives. Each rune will only have one base attribute.
 	enum ATTRIBUTE_TYPE
 	{
 		AT_ATTACK = 0,
@@ -28,7 +29,12 @@ public:
 
 	virtual bool parseFile(const std::string fileName);
 
+	//Calculates the attribute values based on level and rarity
+
 private:
 	//Rune specific variables
-	ATTRIBUTE_TYPE m_attrib_type;
+	int m_level;
+	std::vector<ATTRIBUTE_TYPE> m_attributes;
+	std::vector<float> m_attributes_values;
+	std::vector<Modifier*> m_modifiers;
 };
