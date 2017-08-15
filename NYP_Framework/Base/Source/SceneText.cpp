@@ -42,7 +42,7 @@ SceneText::~SceneText()
 void SceneText::Init()
 {
 	currProg = GraphicsManager::GetInstance()->LoadShader("default", "Shader//Texture.vertexshader", "Shader//Texture.fragmentshader");
-	
+
 	// Tell the shader program to store these uniform locations
 	currProg->AddUniform("MVP");
 	currProg->AddUniform("MV");

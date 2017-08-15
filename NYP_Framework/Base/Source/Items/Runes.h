@@ -23,19 +23,13 @@ public:
 		AT_DEFEND,
 		AT_SPEED,
 	};
-
+	Runes();
 	Runes(int ID);
 	virtual ~Runes();
 
-	virtual bool parseFile(const std::string fileName);
-
-	//Calculates the attribute values based on level and rarity
-	int calculateAttribute(int lv, int rarity);
-
 private:
-	//Rune specific variables
-	int m_level;
-	std::vector<ATTRIBUTE_TYPE> m_attributes;
-	std::vector<float> m_attributes_values;
-	std::vector<Modifier*> m_modifiers;
+	int m_level; //Rune Level
+	std::vector<ATTRIBUTE_TYPE> m_attributes; //Rune attributes type vector
+	std::vector<float> m_attributes_values; //Rune attributes value vector
+	std::vector<Modifier*> m_modifiers; //Rune modifier vector
 };

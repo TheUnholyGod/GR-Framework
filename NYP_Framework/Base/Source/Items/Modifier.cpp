@@ -8,11 +8,3 @@ cpp file for modifier class.
 */
 ///////////////////////////////////////////////////////////////////////////////
 #include "Modifier.h"
-
-Modifier::Modifier()
-{
-}
-
-Modifier::~Modifier()
-{
-}

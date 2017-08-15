@@ -19,8 +19,6 @@ public:
 	ItemBase();
 	~ItemBase();
 
-	virtual bool parseFile(const std::string fileName) = 0; //Read the file and get all needed information (Name,ID,Description,TextureLocation).
-
 protected:
 	int m_ID;
 	std::string m_name;
