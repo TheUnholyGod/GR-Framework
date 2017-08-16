@@ -38,6 +38,9 @@
     <Filter Include="UI">
       <UniqueIdentifier>{449a014f-60d3-41b4-a020-5dd94c41206b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{a7d02a93-cc5d-4ef3-be1e-aa0f089fee8c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Collider\Collider.cpp">
@@ -120,6 +123,12 @@
     </ClCompile>
     <ClCompile Include="Source\UIManager.cpp">
       <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TileMaker.cpp">
+      <Filter>Level</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +230,12 @@
     </ClInclude>
     <ClInclude Include="Source\UIManager.h">
       <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TileMaker.h">
+      <Filter>Level</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
