@@ -17,6 +17,7 @@
     <ClCompile Include="Source\EntityBase.cpp" />
     <ClCompile Include="Source\GraphicsManager.cpp" />
     <ClCompile Include="Source\KeyboardController.cpp" />
+    <ClCompile Include="Source\Level.cpp" />
     <ClCompile Include="Source\LightBase.cpp" />
     <ClCompile Include="Source\Loader.cpp" />
     <ClCompile Include="Source\LoadOBJ.cpp" />
@@ -32,6 +33,7 @@
     <ClCompile Include="Source\SceneManager.cpp" />
     <ClCompile Include="Source\ShaderProgram.cpp" />
     <ClCompile Include="Source\SpriteAnimation.cpp" />
+    <ClCompile Include="Source\TileMaker.cpp" />
     <ClCompile Include="Source\timer.cpp" />
     <ClCompile Include="Source\UIManager.cpp" />
     <ClCompile Include="Source\Utility.cpp" />
@@ -46,6 +48,7 @@
     <ClInclude Include="Source\EntityBase.h" />
     <ClInclude Include="Source\GraphicsManager.h" />
     <ClInclude Include="Source\KeyboardController.h" />
+    <ClInclude Include="Source\Level.h" />
     <ClInclude Include="Source\LightBase.h" />
     <ClInclude Include="Source\Loader.h" />
     <ClInclude Include="Source\LoadOBJ.h" />
@@ -66,6 +69,7 @@
     <ClInclude Include="Source\SingletonTemplate.h" />
     <ClInclude Include="Source\SpriteAnimation.h" />
     <ClInclude Include="Source\SQLKeywords.h" />
+    <ClInclude Include="Source\TileMaker.h" />
     <ClInclude Include="Source\timer.h" />
     <ClInclude Include="Source\UIManager.h" />
     <ClInclude Include="Source\Utility.h" />
